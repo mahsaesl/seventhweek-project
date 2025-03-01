@@ -18,15 +18,15 @@ y=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1
 <body>
     <div class="weather-app">
     <header>
-        <form class="search-form"> 
-            <input type="search" placeholder="enter a city" class="search-form-input"> 
+        <form class="search-form" id="search-form"> 
+            <input type="search" placeholder="enter a city" class="search-form-input" id="search-form-input"> 
         <input type="submit" value="search" class="search-form-button"> </form>
        
     </header>
     <main> 
         <div class="weather-app-data">
         <div>
-        <h1 class="weather-app-city">
+        <h1 class="weather-app-city" id="city">
             paris
         </h1>
         <p class="weather-app-details">
@@ -58,5 +58,6 @@ y=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1
         >
     </footer>
     </div>
+    <script src="src/index.js"></script>
 </body>
 </html>
