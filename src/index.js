@@ -6,6 +6,17 @@ function refreshWeather(response){
     temperatureElement.innerHTML=Math.round(temperature);
  let cityElememt = document.querySelector("#city");
  cityElememt.innerHTML=response.data.city;
+let descriptionElement =document.querySelector("#description");
+ descriptionElement.innerHTML=response.data.condition.description;
+ let humidityElement = document.querySelector("#Humidity");
+ humidityElement.innerHTML=`${response.data.temperature.humidity}%`;
+
+ 
+
+ 
+
+ 
+
 
 }
 
